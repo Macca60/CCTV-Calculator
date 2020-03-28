@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Number plate"; ObjectID = "7Qm-0R-SlY"; */
+"7Qm-0R-SlY.text" = "Number plate";
+
+/* Class = "UILabel"; text = "Distance from camera to scene"; ObjectID = "7TN-hV-54n"; */
+"7TN-hV-54n.text" = "Distance from camera to scene";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "7l1-6f-1ll"; */
+"7l1-6f-1ll.normalTitle" = "Calculate";
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "9Gf-wX-s21"; */
+"9Gf-wX-s21.title" = "Menu";
+
+/* Class = "UITextField"; placeholder = "Displays focal length mm"; ObjectID = "BWY-YM-AqX"; */
+"BWY-YM-AqX.placeholder" = "Displays focal length mm";
+
+/* Class = "UITextField"; placeholder = "Distance from camera"; ObjectID = "FXg-vf-j4T"; */
+"FXg-vf-j4T.placeholder" = "Distance from camera";
+
+/* Class = "UILabel"; text = "Horizontal Distance of Scene"; ObjectID = "JFk-Dm-m7n"; */
+"JFk-Dm-m7n.text" = "Horizontal Distance of Scene";
+
+/* Class = "UINavigationItem"; title = " Lens Calculator"; ObjectID = "Lku-32-ovR"; */
+"Lku-32-ovR.title" = " Lens Calculator";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "Sxo-Fe-zjb"; */
+"Sxo-Fe-zjb.title" = "Menu";
+
+/* Class = "UITextField"; placeholder = "Pixels per Meter"; ObjectID = "XNt-Mn-lXw"; */
+"XNt-Mn-lXw.placeholder" = "Pixels per Meter";
+
+/* Class = "UISegmentedControl"; Ylw-iJ-stp.segmentTitles[0] = "1/4\""; ObjectID = "Ylw-iJ-stp"; */
+"Ylw-iJ-stp.segmentTitles[0]" = "1/4\"";
+
+/* Class = "UISegmentedControl"; Ylw-iJ-stp.segmentTitles[1] = "1/3\""; ObjectID = "Ylw-iJ-stp"; */
+"Ylw-iJ-stp.segmentTitles[1]" = "1/3\"";
+
+/* Class = "UISegmentedControl"; Ylw-iJ-stp.segmentTitles[2] = "1/2\""; ObjectID = "Ylw-iJ-stp"; */
+"Ylw-iJ-stp.segmentTitles[2]" = "1/2\"";
+
+/* Class = "UISegmentedControl"; b1A-wS-1bV.segmentTitles[0] = "720p"; ObjectID = "b1A-wS-1bV"; */
+"b1A-wS-1bV.segmentTitles[0]" = "720p";
+
+/* Class = "UISegmentedControl"; b1A-wS-1bV.segmentTitles[1] = "1080p"; ObjectID = "b1A-wS-1bV"; */
+"b1A-wS-1bV.segmentTitles[1]" = "1080p";
+
+/* Class = "UISegmentedControl"; b1A-wS-1bV.segmentTitles[2] = "4k"; ObjectID = "b1A-wS-1bV"; */
+"b1A-wS-1bV.segmentTitles[2]" = "4k";
+
+/* Class = "UITextField"; placeholder = "Horizontal Angle of view degrees"; ObjectID = "dqb-83-Z7Y"; */
+"dqb-83-Z7Y.placeholder" = "Horizontal Angle of view degrees";
+
+/* Class = "UITextField"; placeholder = "Horizontal Distance of Scene"; ObjectID = "ipu-dY-95S"; */
+"ipu-dY-95S.placeholder" = "Horizontal Distance of Scene";
+
+/* Class = "UILabel"; text = "Face"; ObjectID = "jqW-SV-bpZ"; */
+"jqW-SV-bpZ.text" = "Face";
