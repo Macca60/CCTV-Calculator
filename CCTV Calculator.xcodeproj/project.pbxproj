@@ -14,11 +14,10 @@
 		0795F24A1E70AE4200B15501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0795F2481E70AE4200B15501 /* LaunchScreen.storyboard */; };
 		0795F2551E70AE4300B15501 /* CCTV_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2541E70AE4300B15501 /* CCTV_CalculatorTests.swift */; };
 		07BBD6591FD9509F00E956E1 /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBD6581FD9509F00E956E1 /* TextFieldMaxLengths.swift */; };
-		07C4EE461ED9359B00F916F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2411E70AE4200B15501 /* ViewController.swift */; };
 		07C4EE471EE22A3C00F916F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0795F2431E70AE4200B15501 /* Main.storyboard */; };
-		07C4EE4A1EE22A6C00F916F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2411E70AE4200B15501 /* ViewController.swift */; };
 		07C4EE4C1EE230D400F916F3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4EE4B1EE230D400F916F3 /* MenuViewController.swift */; };
 		07DFF5B01FC2256C004A13CF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4EE4B1EE230D400F916F3 /* MenuViewController.swift */; };
+		07EE9B4E244AB2AD0019C8E4 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE9B4D244AB2AD0019C8E4 /* viewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 		0782A4C420423D13006EFADA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0795F23C1E70AE4200B15501 /* CCTV Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCTV Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0795F23F1E70AE4200B15501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0795F2411E70AE4200B15501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0795F2441E70AE4200B15501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0795F2461E70AE4200B15501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0795F2491E70AE4200B15501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +44,7 @@
 		07BBD6581FD9509F00E956E1 /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
 		07C4EE491EE22A4E00F916F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		07C4EE4B1EE230D400F916F3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		07EE9B4D244AB2AD0019C8E4 /* viewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				07C4EE4B1EE230D400F916F3 /* MenuViewController.swift */,
+				07EE9B4D244AB2AD0019C8E4 /* viewController.swift */,
 				0795F23F1E70AE4200B15501 /* AppDelegate.swift */,
-				0795F2411E70AE4200B15501 /* ViewController.swift */,
 				0795F2431E70AE4200B15501 /* Main.storyboard */,
 				0795F2461E70AE4200B15501 /* Assets.xcassets */,
 				0795F2481E70AE4200B15501 /* LaunchScreen.storyboard */,
@@ -160,12 +159,12 @@
 					0795F23B1E70AE4200B15501 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 7HD8U65R8E;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
 					};
 					0795F24F1E70AE4200B15501 = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0795F23B1E70AE4200B15501;
 					};
@@ -173,7 +172,7 @@
 			};
 			buildConfigurationList = 0795F2371E70AE4200B15501 /* Build configuration list for PBXProject "CCTV Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -217,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EE9B4E244AB2AD0019C8E4 /* viewController.swift in Sources */,
 				07BBD6591FD9509F00E956E1 /* TextFieldMaxLengths.swift in Sources */,
-				07C4EE461ED9359B00F916F3 /* ViewController.swift in Sources */,
 				07C4EE4C1EE230D400F916F3 /* MenuViewController.swift in Sources */,
 				0795F2401E70AE4200B15501 /* AppDelegate.swift in Sources */,
 			);
@@ -228,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C4EE4A1EE22A6C00F916F3 /* ViewController.swift in Sources */,
 				07DFF5B01FC2256C004A13CF /* MenuViewController.swift in Sources */,
 				0795F2551E70AE4300B15501 /* CCTV_CalculatorTests.swift in Sources */,
 			);
@@ -382,13 +380,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HD8U65R8E;
 				INFOPLIST_FILE = "CCTV Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.protectyourhomecctv.CCTV-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -397,13 +399,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HD8U65R8E;
 				INFOPLIST_FILE = "CCTV Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.protectyourhomecctv.CCTV-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -413,12 +419,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CCTV CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ki.CCTV-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTV Calculator.app/CCTV Calculator";
 			};
 			name = Debug;
@@ -428,12 +440,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CCTV CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ki.CCTV-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTV Calculator.app/CCTV Calculator";
 			};
 			name = Release;
