@@ -274,9 +274,10 @@ class viewController: UITableViewController, UITextFieldDelegate, UIPickerViewDa
     
     func CreateToolBar() {
     
-    let toolbar = UIToolbar()
-    toolbar.sizeToFit()
-    let donebutton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(viewController.DismissKeyboard))
+        var toolbar = UIToolbar()
+   // toolbar.sizeToFit()
+    toolbar = UIToolbar(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 44.0)))
+        let donebutton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(viewController.DismissKeyboard))
     toolbar.setItems(([donebutton]), animated: false)
     toolbar.isUserInteractionEnabled = true
     print("toolbar")
@@ -301,7 +302,7 @@ class viewController: UITableViewController, UITextFieldDelegate, UIPickerViewDa
        // Input data into the lens and resolution Selection Array:
     
     // Lens Size Display
-       let pickerData = ["1/4","1/3","1/2.9","1/2.5", "1/2", "1/1.8"]
+       let pickerData = ["1/4","1/3","1/2.7","1/2.5", "1/2", "1/1.8"]
     
     
     //,"HD720(1280x720)",  "HD1080(1920x1080)", "3M(2048x1536)", "5M(2592x1944)", "4K(3840x2160)"]
@@ -310,7 +311,7 @@ class viewController: UITableViewController, UITextFieldDelegate, UIPickerViewDa
        let pickerData2 = ["720p (1280x720)","1080p (1920x1080)", "3MP (2048x1536)", "3072x1728 (5MP)", "4K (3840x2160"]
       
     // Lens Data 1/4 3.6 or 3.2
-       let pickerData1Value = ["3.2","4.8","4.98","5.76","6.4","7.18"]
+       let pickerData1Value = ["3.6","4.8","5.37","5.76","6.4","7.18"]
     // Resolution Data
        let pickerData2Value = ["1280","1920","2048", "3072", "3840"]
       
@@ -451,14 +452,19 @@ class viewController: UITableViewController, UITextFieldDelegate, UIPickerViewDa
             let PickerData2ValueDouble : Double? = Double (PickerData2Value)
         // Calculate Focal length and Angle of view..
             
-        let FocalLengthResultPart = PickerData1ValueDouble! * sqrt(Double(DistToCamInt! * DistToCamInt!))
-        let FocalLenghtResult = round(10*((FocalLengthResultPart + (CamHeightInt! * CamHeightInt!)) / Double(HorzDistInt!)))/10
+        let FocalLengthResultPart = PickerData1ValueDouble! * sqrt((Double(DistToCamInt! * DistToCamInt!) + (CamHeightInt! * CamHeightInt!)))
+        let FocalLenghtResult = round(10*((FocalLengthResultPart ) / Double(HorzDistInt!)))/10
         let HorzAngleViewRad  = 2.0 * (atan ((PickerData1ValueDouble!/2.0) / FocalLenghtResult))
         let HorzAngleViewDeg = round(10 * HorzAngleViewRad * 180/3.142)/10
         
         let VertAngleViewRad  = 2.0 * (atan (PickerData1ValueDouble!/(2.0 * FocalLenghtResult)))
         let VertAngleViewDeg = round(10 * (VertAngleViewRad * 180/3.142))/10
         print(VertAngleViewDeg)
+            
+    // Test
+            
+            let test = sqrt((Double(DistToCamInt! * DistToCamInt!) + (CamHeightInt! * CamHeightInt!)))
+            print("overall distance is \(test)")
             
     // Display result.
         
